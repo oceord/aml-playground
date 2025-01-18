@@ -15,11 +15,6 @@
   - [x] Load raw data to Hadoop
   - [x] Transform and Load Fact tables to PostgreSQL
   - [x] Validate data with Great Expectations
-- [ ] Money laundering detection
-  - [ ] [Realistic Synthetic Financial Transactions for Anti-Money Laundering Models](https://arxiv.org/pdf/2306.16424.pdf)
-  - [ ] [Provably Powerful Graph Neural Networks for Directed Multigraphs](https://arxiv.org/pdf/2306.11586.pdf)
-  - [ ] Detect money laundering through [Multi-GNN](https://github.com/IBM/Multi-GNN)
-- [ ] Real-time money laundering detection
 
 ## Playground
 

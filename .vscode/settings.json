@@ -28,6 +28,7 @@
         "datasources",
         "hdfs",
         "jdbc",
+        "Kaggle",
         "pyspark"
     ]
 }

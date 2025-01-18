@@ -1,7 +1,7 @@
-# Real-Time Ingestion and Analysis of Financial Transactions
+# Big Data Playground
 
-This project aims to build a comprehensive data pipeline for real-time ingestion and analysis of financial transactions, focusing on expanding knowledge in Kafka, Hadoop, Great Expectations, Spark, and Machine Learning.
-The pipeline will ingest data from a Kaggle dataset, process it through a series of technologies, and output the results to a PostgreSQL data warehouse, Hadoop for raw and formatted data storage, and apply machine learning models for money laundering detection.
+This playground aims to expand knowledge in big data and real-time data tools.
+It provides an environment for experimenting with various technologies and techniques in the fields of big data and real-time processing.
 
 A roadmap is available [here](ROADMAP.md).
 
@@ -12,26 +12,26 @@ A roadmap is available [here](ROADMAP.md).
 ### Data Source
 
 - **Kaggle Dataset**: [IBM Transactions for AML](https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml)
-- **Format**: CSV
 
 ### Data Feed
 
-- **Kafka**: used for real-time data streaming.
+- **Kafka**: used for real-time data streaming
 
 ### Data Ingestion
 
-- **Spark**: used for processing and analyzing data in real-time.
-
-### Data Output
-
-- **Hadoop**: used for storing raw and formatted data.
-- **PostgreSQL**: serves as data warehouse for storing processed and analyzed data.
+- **Spark**: used for processing and analyzing data in real-time
 
 ### Data Validation
 
-- **Great Expectations**: ensures data quality and integrity through automated testing.
+- **Great Expectations**: ensures data quality and integrity through automated testing
 
-### Machine Learning
+### Data Output
 
-- **[IBM/Multi-GNN](https://github.com/IBM/Multi-GNN)**: machine learning models for detecting patterns indicative of money laundering activities.
-- **Spark**: playground for all things machine learning.
+- **Hadoop**: used for storing raw and formatted data
+- **PostgreSQL**: serves as data warehouse for storing processed and analyzed data
+
+### Data Processing
+
+- **MapReduce**
+  - Hadoop MapReduce
+  - Spark
